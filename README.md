@@ -7,7 +7,9 @@
 F1 метрика на тестовом наборе данных составляет *0.7128*
 
 ### Запуск проекта
+
 docker build --tag classifier:latest
+
 docker run --publish 5000:5000 classifier
 
 ### Использование API
