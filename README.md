@@ -8,10 +8,14 @@ docker build --tag classifier:latest
 docker run --publish 5000:5000 classifier
 
 ### Использование API
+
 **POST localhost:5000/classify**
+
 *Параметры запроса:*
 body :: text (string) - текст для классификации.
+
 **Возвращаемые данные - json-объект**
+
 *Параметры возвращаемого объекта:*
 result (string) - результат классификации, где возможны варианты "positive", "neutral", "negative"
 
