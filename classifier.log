@@ -1,0 +1,8 @@
+INFO:pymorphy2.opencorpora_dict.wrapper:Loading dictionaries from d:\python-venv\lib\site-packages\pymorphy2_dicts_ru\data
+INFO:pymorphy2.opencorpora_dict.wrapper:format: 2.4, revision: 417127, updated: 2020-10-11T15:05:51.070345
+INFO:gensim.models.keyedvectors:loading projection weights from ru\ru.wiki.bpe.vs100000.d100.w2v.bin
+INFO:gensim.utils:KeyedVectors lifecycle event {'msg': 'loaded (100000, 100) matrix of type float32 from ru\\ru.wiki.bpe.vs100000.d100.w2v.bin', 'binary': True, 'encoding': 'utf8', 'datetime': '2021-08-02T19:16:56.528959', 'gensim': '4.0.1', 'python': '3.9.6 (tags/v3.9.6:db3ff76, Jun 28 2021, 15:26:21) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'load_word2vec_format'}
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:app:Classification requested: приказ отлично
+INFO:app:Classification result: [(-1.0, 0.836004912853241), (0.0, 0.08646069467067719), (1.0, 0.04755015671253204)], execution time, ms: 649.583
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2021 19:17:19] "POST /classify HTTP/1.1" 200 -
